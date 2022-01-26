@@ -1,7 +1,7 @@
 {
   "packages":[
     {
-      "name":"INEX Seeed WIO",
+      "name":"INEX-Seeed-WIO",
       "maintainer":"INEX Seeed Studio boards",
       "websiteURL":"http://www.inex.co.th",
       "email":"dev@inex.co.th",
@@ -10,7 +10,7 @@
       },
       "platforms":[
         {
-          "name":"INEX Seeed WIO",
+          "name":"INEX-Seeed-WIO",
           "architecture":"samd",
           "version":"1.8.2",
           "category":"Contributed",
@@ -77,12 +77,12 @@
               "version":"1.2.1"
             },
             {
-              "packager":"INEX Seeed WIO",
+              "packager":"INEX-Seeed-WIO",
               "name":"CMSIS",
               "version":"5.7.0"
             },
             {
-              "packager":"INEX Seeed WIO",
+              "packager":"INEX-Seeed-WIO",
               "name":"CMSIS-Atmel",
               "version":"1.2.1"
             }
