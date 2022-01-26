@@ -52,17 +52,17 @@
                ],
                "toolsDependencies":[
                   {
-                     "packager":"arduino",
+                     "packager":"Seeeduino",
                      "name":"arm-none-eabi-gcc",
                      "version":"7-2017q4"
                   },
                   {
-                     "packager":"arduino",
+                     "packager":"Seeeduino",
                      "name":"bossac",
                      "version":"1.7.0-arduino3"
                   },
                   {
-                     "packager":"arduino",
+                     "packager":"Seeeduino",
                      "name":"bossac",
                      "version":"1.8.0-48-gb176eee"
                   },
