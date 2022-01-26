@@ -52,17 +52,17 @@
           ],
           "toolsDependencies":[
             {
-              "packager":"Seeeduino",
+              "packager":"arduino",
               "name":"arm-none-eabi-gcc",
               "version":"7-2017q4"
             },
             {
-              "packager":"Seeeduino",
+              "packager":"arduino",
               "name":"bossac",
               "version":"1.7.0-arduino3"
             },
             {
-              "packager":"Seeeduino",
+              "packager":"arduino",
               "name":"bossac",
               "version":"1.8.0-48-gb176eee"
             },
@@ -72,17 +72,17 @@
               "version":"0.10.0-arduino7"
             },
             {
-              "packager":"Seeeduino",
+              "packager":"arduino",
               "name":"CMSIS",
               "version":"5.7.0"
             },
             {
-              "packager":"Seeeduino",
+              "packager":"arduino",
               "name":"CMSIS-Atmel",
               "version":"1.2.1"
             },
             {
-              "packager":"Seeeduino",
+              "packager":"arduino",
               "name":"arduinoOTA",
               "version":"1.2.1"
             }
