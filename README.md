@@ -1,4 +1,4 @@
-# INEX SeeedStudio boards - WIO terminal (In Development.. DO NOT USE)
+# INEX SeeedStudio boards - WIO terminal (In Development..)
 
 Last update :
 26 Jan 2022 : Initialize in developement
