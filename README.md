@@ -4,7 +4,7 @@ Last update :
 26 Jan 2022 : Initialize build.
 
 # Board support
-WIO Terminal
+WIO Terminal  
 TinySAM 
 
 # Instruction
