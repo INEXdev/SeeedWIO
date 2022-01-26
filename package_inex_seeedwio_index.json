@@ -10,7 +10,7 @@
       },
       "platforms":[
         {
-          "name":"INEX-Seeed-WIO",
+          "name":"INEX Seeed WIO",
           "architecture":"samd",
           "version":"1.8.2",
           "category":"Contributed",
@@ -52,27 +52,27 @@
           ],
           "toolsDependencies":[
             {
-              "packager":"arduino",
+              "packager":"INEX-Seeed-WIO",
               "name":"arm-none-eabi-gcc",
               "version":"7-2017q4"
             },
             {
-              "packager":"arduino",
+              "packager":"INEX-Seeed-WIO",
               "name":"bossac",
               "version":"1.7.0-arduino3"
             },
             {
-              "packager":"arduino",
+              "packager":"INEX-Seeed-WIO",
               "name":"bossac",
               "version":"1.8.0-48-gb176eee"
             },
             {
-              "packager":"arduino",
+              "packager":"INEX-Seeed-WIO",
               "name":"openocd",
               "version":"0.10.0-arduino7"
             },
             {
-              "packager":"arduino",
+              "packager":"INEX-Seeed-WIO",
               "name":"arduinoOTA",
               "version":"1.2.1"
             },
