@@ -52,17 +52,17 @@
           ],
           "toolsDependencies":[
             {
-              "packager":"arduino",
+              "packager":"Seeeduino",
               "name":"arm-none-eabi-gcc",
               "version":"7-2017q4"
             },
             {
-              "packager":"arduino",
+              "packager":"Seeeduino",
               "name":"bossac",
               "version":"1.7.0-arduino3"
             },
             {
-              "packager":"arduino",
+              "packager":"Seeeduino",
               "name":"bossac",
               "version":"1.8.0-48-gb176eee"
             },
@@ -72,17 +72,17 @@
               "version":"0.10.0-arduino7"
             },
             {
-              "packager":"arduino",
+              "packager":"Seeeduino",
               "name":"CMSIS",
               "version":"5.7.0"
             },
             {
-              "packager":"arduino",
+              "packager":"Seeeduino",
               "name":"CMSIS-Atmel",
               "version":"1.2.1"
             },
             {
-              "packager":"arduino",
+              "packager":"Seeeduino",
               "name":"arduinoOTA",
               "version":"1.2.1"
             }
@@ -90,6 +90,47 @@
         }
       ],
       "tools":[
+        {
+          "name":"arm-none-eabi-gcc",
+          "version":"4.8.3-2014q1",
+          "systems":[
+            {
+              "host":"arm-linux-gnueabihf",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/arm-none-eabi-gcc/4.8.3-2014q1/gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
+              "archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
+              "checksum":"SHA-256:ebe96b34c4f434667cab0187b881ed585e7c7eb990fe6b69be3c81ec7e11e845",
+              "size":"44423906"
+            },
+            {
+              "host":"i686-mingw32",
+              "archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/arm-none-eabi-gcc/4.8.3-2014q1/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+              "checksum":"SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+              "size":"84537449"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/arm-none-eabi-gcc/4.8.3-2014q1/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "checksum":"SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+              "size":"52518522"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/arm-none-eabi-gcc/4.8.3-2014q1/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum":"SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+              "size":"51395093"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/arm-none-eabi-gcc/4.8.3-2014q1/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "archiveFileName":"gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "checksum":"SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+              "size":"51029223"
+            }
+          ]
+        },
         {
           "name":"arm-none-eabi-gcc",
           "version":"7-2017q4",
@@ -135,6 +176,95 @@
               "archiveFileName":"gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
               "checksum":"SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
               "size":"97427309"
+            }
+          ]
+        },
+        {
+          "name":"arm-none-eabi-gcc",
+          "version":"9-2019q4",
+          "systems":[
+            {
+              "host":"arm-linux-gnueabihf",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/arm-none-eabi-gcc/9-2019q4/gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+              "archiveFileName":"gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+              "checksum":"SHA-256:34180943d95f759c66444a40b032f7dd9159a562670fc334f049567de140c51b",
+              "size":"96613739"
+            },
+            {
+              "host":"aarch64-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/arm-none-eabi-gcc/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+              "archiveFileName":"gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+              "checksum":"MD5:0dfa059aae18fcf7d842e30c525076a4",
+              "size":"128670769"
+            },
+            {
+              "host":"i686-mingw32",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/arm-none-eabi-gcc/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+              "archiveFileName":"gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+              "checksum":"MD5:9d60cbb0e358ab6a9d3c9e5dc3624dd2",
+              "size":"153520070"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/arm-none-eabi-gcc/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+              "archiveFileName":"gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+              "checksum":"MD5:241b64f0578db2cf146034fc5bcee3d4",
+              "size":"116770520"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/arm-none-eabi-gcc/9-2019q4/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+              "archiveFileName":"gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+              "checksum":"MD5:fe0029de4f4ec43cf7008944e34ff8cc",
+              "size":"116802378"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/arm-none-eabi-gcc/9-2019q4/gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+              "archiveFileName":"gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+              "checksum":"SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
+              "size":"97427309"
+            }
+          ]
+        },
+        {
+          "name":"bossac",
+          "version":"1.7.0",
+          "systems":[
+            {
+              "host":"i686-mingw32",
+              "url":"https://files.seeedstudio.com/arduino/tools/i686-mingw32/bossac-1.7.0-mingw32.tar.gz",
+              "archiveFileName":"bossac-1.7.0-mingw32.tar.gz",
+              "checksum":"SHA-256:9ef7d11b4fabca0adc17102a0290957d5cc26ce46b422c3a5344722c80acc7b2",
+              "size":"243066"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://files.seeedstudio.com/arduino/tools/x86_64-apple-darwin/bossac-1.7.0-i386-apple-darwin15.6.0.tar.gz",
+              "archiveFileName":"bossac-1.7.0-i386-apple-darwin15.6.0.tar.gz",
+              "checksum":"SHA-256:feac36ab38876c163dcf51bdbcfbed01554eede3d41c59a0e152e170fe5164d2",
+              "size":"63822"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/x86_64-pc-linux-gnu/bossac-1.7.0-x86_64-linux-gnu.tar.gz",
+              "archiveFileName":"bossac-1.7.0-x86_64-linux-gnu.tar.gz",
+              "checksum":"SHA-256:9475c0c8596c1ba12dcbce60e48fef7559087fa8eccbea7bab732113f3c181ee",
+              "size":"31373"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/i686-pc-linux-gnu/bossac-1.7.0-i686-linux-gnu.tar.gz",
+              "archiveFileName":"bossac-1.7.0-i686-linux-gnu.tar.gz",
+              "checksum":"SHA-256:17003b0bdc698d52eeb91b09c34aec501c6e0285b4aa88659ab7cc407a451a4d",
+              "size":"31086"
+            },
+            {
+              "host":"arm-linux-gnueabihf",
+              "url":"https://files.seeedstudio.com/arduino/tools/arm-linux-gnueabihf/bossac-1.7.0-arm-linux-gnueabihf.tar.gz",
+              "archiveFileName":"bossac-1.7.0-arm-linux-gnueabihf.tar.gz",
+              "checksum":"SHA-256:09e46d0af61b2189caaac0bc6d4dd15cb22c167fdedc56ec98602dd5f10e68e0",
+              "size":"27382"
             }
           ]
         },
@@ -228,6 +358,102 @@
           ]
         },
         {
+          "name":"bossac",
+          "version":"1.9.1-seeeduino",
+          "systems":[
+            {
+              "host":"i686-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/bossac/1.9.1-seeeduino/bossac-1.9.1-seeeduino-linux.tar.gz",
+              "archiveFileName":"bossac-1.9.1-seeeduino-linux.tar.gz",
+              "checksum":"SHA-256:6D67317017CB02CD000F7BA782CEE99985F69B22EC2A857E880512F0FF8437F8",
+              "size":"468465"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/bossac/1.9.1-seeeduino/bossac-1.9.1-seeeduino-linux.tar.gz",
+              "archiveFileName":"bossac-1.9.1-seeeduino-linux.tar.gz",
+              "checksum":"SHA-256:6D67317017CB02CD000F7BA782CEE99985F69B22EC2A857E880512F0FF8437F8",
+              "size":"468465"
+            },
+            {
+              "host":"i686-mingw32",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/bossac/1.9.1-seeeduino/bossac-1.9.1-seeeduino-windows.tar.bz2",
+              "archiveFileName":"bossac-1.9.1-seeeduino-windows.tar.bz2",
+              "checksum":"SHA-256:3DBA3C4128E95F27A469C39B79E93652B26DF7A40F0A8D27B399B30F373AD5A1",
+              "size":"493021"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/bossac/1.9.1-seeeduino/bossac-1.9.1-seeeduino-drawin.tar.gz",
+              "archiveFileName":"bossac-1.9.1-seeeduino-drawin.tar.gz",
+              "checksum":"SHA-256:88ac7665b9e5b7cbdbe6cd40960a9fc236495709e6c86d1515c86293e19ca43a",
+              "size":"75744"
+            },
+            {
+              "host":"arm-linux-gnueabihf",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/bossac/1.9.1-seeeduino/bossac-1.9.1-seeeduino-linux-arm-32.tar.gz",
+              "archiveFileName":"bossac-1.8-48-gb176eee-arm-linux-gnueabihf.tar.gz",
+              "checksum":"SHA-256:2001e4a592f3aefd22f213b1ddd6f5d8d5e74bd04080cf1b97c24cbaa81b10ed",
+              "size":"34825"
+            }
+          ]
+        },
+        {
+          "name":"CMSIS-Atmel",
+          "version":"1.2.0",
+          "systems":[
+            {
+              "host":"i686-mingw32",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS-Atmel/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName":"CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum":"SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size":"2221805"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS-Atmel/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName":"CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum":"SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size":"2221805"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS-Atmel/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName":"CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum":"SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size":"2221805"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS-Atmel/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName":"CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum":"SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size":"2221805"
+            },
+            {
+              "host":"arm-linux-gnueabihf",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS-Atmel/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName":"CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum":"SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size":"2221805"
+            },
+            {
+              "host":"aarch64-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS-Atmel/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName":"CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum":"SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size":"2221805"
+            },
+            {
+              "host":"all",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS-Atmel/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName":"CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum":"SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size":"2221805"
+            }
+          ]
+        },
+        {
           "name":"CMSIS-Atmel",
           "version":"1.2.1",
           "systems":[
@@ -284,6 +510,47 @@
         },
         {
           "name":"openocd",
+          "version":"0.9.0-arduino",
+          "systems":[
+            {
+              "host":"arm-linux-gnueabihf",
+              "url":"https://files.seeedstudio.com/arduino/tools/arm-linux-gnueabihf/OpenOCD-0.9.0-dev-arduino-arm-linux-gnueabihf.tar.bz2",
+              "archiveFileName":"OpenOCD-0.9.0-dev-arduino-arm-linux-gnueabihf.tar.bz2",
+              "checksum":"SHA-256:a84e7c4cba853f2c937d77286f8a0ca317447d3873e51cbd2a2d41424e044a18",
+              "size":"1402283"
+            },
+            {
+              "host":"i686-mingw32",
+              "url":"https://files.seeedstudio.com/arduino/tools/i686-mingw32/OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
+              "archiveFileName":"OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
+              "checksum":"SHA-256:5310bdd3730168a33b09b68558e908ca8b2fec25620c488f50a5fb35d0d1effd",
+              "size":"2360705"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://files.seeedstudio.com/arduino/tools/x86_64-apple-darwin/OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
+              "archiveFileName":"OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
+              "checksum":"SHA-256:ef90769c07b8018cec3a5054e690ac6c196e03720e102ac5038c3f9da4e44782",
+              "size":"2275101"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/x86_64-pc-linux-gnu/OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
+              "archiveFileName":"OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
+              "checksum":"SHA-256:c350409f7badf213dfcc516ea34289461ad92d87806e8e33945508a2c6b2c0b3",
+              "size":"1210796"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/i686-pc-linux-gnu/OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
+              "archiveFileName":"OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
+              "checksum":"SHA-256:4c9793dfd7822b0fc959d039e5ecabfa89092ee2911abfdc7b5905deb171499a",
+              "size":"1129654"
+            }
+          ]
+        },
+        {
+          "name":"openocd",
           "version":"0.10.0-arduino7",
           "systems":[
             {
@@ -327,6 +594,116 @@
               "host":"i686-mingw32",
               "archiveFileName":"openocd-0.10.0-arduino7-static-i686-w64-mingw32.zip",
               "url":"https://files.seeedstudio.com/arduino/tools/res/openocd/0.10.0-arduino7/openocd-0.10.0-arduino7-static-i686-w64-mingw32.zip"
+            }
+          ]
+        },
+        {
+          "name":"CMSIS",
+          "version":"4.5.0",
+          "systems":[
+            {
+              "host":"i686-mingw32",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
+              "archiveFileName":"CMSIS_4-4.5.0.tar.bz2",
+              "checksum":"SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size":"31525196"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
+              "archiveFileName":"CMSIS_4-4.5.0.tar.bz2",
+              "checksum":"SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size":"31525196"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
+              "archiveFileName":"CMSIS_4-4.5.0.tar.bz2",
+              "checksum":"SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size":"31525196"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
+              "archiveFileName":"CMSIS_4-4.5.0.tar.bz2",
+              "checksum":"SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size":"31525196"
+            },
+            {
+              "host":"arm-linux-gnueabihf",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS-Atmel/CMSIS-Atmel-1.2.1.tar.gz",
+              "archiveFileName":"CMSIS-Atmel-1.2.1.tar.gz",
+              "checksum":"SHA-256:827242706CD1DA8FA684241DF5ACFDD2C16A6607AD4C199A814158267E451D45",
+              "size":"3669946"
+            },
+            {
+              "host":"aarch64-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
+              "archiveFileName":"CMSIS_4-4.5.0.tar.bz2",
+              "checksum":"SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size":"31525196"
+            },
+            {
+              "host":"all",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_4-4.5.0.tar.gz",
+              "archiveFileName":"CMSIS_4-4.5.0.tar.bz2",
+              "checksum":"SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+              "size":"31525196"
+            }
+          ]
+        },
+        {
+          "name":"CMSIS",
+          "version":"5.4.0",
+          "systems":[
+            {
+              "host":"i686-mingw32",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
+              "archiveFileName":"CMSIS_5-5.4.0.tar.gz",
+              "checksum":"SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size":"153772853"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
+              "archiveFileName":"CMSIS_5-5.4.0.tar.gz",
+              "checksum":"SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size":"153772853"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
+              "archiveFileName":"CMSIS_5-5.4.0.tar.gz",
+              "checksum":"SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size":"153772853"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
+              "archiveFileName":"CMSIS_5-5.4.0.tar.gz",
+              "checksum":"SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size":"153772853"
+            },
+            {
+              "host":"arm-linux-gnueabihf",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
+              "archiveFileName":"CMSIS_5-5.4.0.tar.gz",
+              "checksum":"SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size":"153772853"
+            },
+            {
+              "host":"aarch64-linux-gnu",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
+              "archiveFileName":"CMSIS_5-5.4.0.tar.gz",
+              "checksum":"SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size":"153772853"
+            },
+            {
+              "host":"all",
+              "url":"https://files.seeedstudio.com/arduino/tools/res/CMSIS/CMSIS_5-5.4.0.tar.gz",
+              "archiveFileName":"CMSIS_5-5.4.0.tar.gz",
+              "checksum":"SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size":"153772853"
             }
           ]
         },
@@ -434,6 +811,150 @@
           ]
         },
         {
+          "name":"xpack-arm-none-eabi-gcc",
+          "version":"9.3.1-1.3",
+          "systems":[
+            {
+              "host":"arm-linux-gnueabihf",
+              "url":"https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm.tar.gz",
+              "archiveFileName":"xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm.tar.gz",
+              "checksum":"SHA-256:0e6720296f291141cd757d90e6bf60867a1232de9abc52b0cde28af12eeb94f2",
+              "size":"147111321"
+            },
+            {
+              "host":"aarch64-linux-gnu",
+              "url":"https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm64.tar.gz",
+              "archiveFileName":"xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-arm64.tar.gz",
+              "checksum":"SHA-256:9a9e96b9ac3634d7632d35aa0d8138f8468d4f3f4d752374a95420ff7c8e4476",
+              "size":"150584175"
+            },
+            {
+              "host":"i686-mingw32",
+              "url":"https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-win32-x32.zip",
+              "archiveFileName":"xpack-arm-none-eabi-gcc-9.3.1-1.3-win32-x32.zip",
+              "checksum":"SHA-256:7432cfff045dc421d2ba177c3777ec1e82d4febe5f5f51fb2e90ff07d27cd466",
+              "size":"148593506"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-darwin-x64.tar.gz",
+              "archiveFileName":"xpack-arm-none-eabi-gcc-9.3.1-1.3-darwin-x64.tar.gz",
+              "checksum":"SHA-256:f22f0d49c27f844dcfe629a6a33878d767b6945acd7508d9578b20b17b106f4c",
+              "size":"148641073"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x64.tar.gz",
+              "archiveFileName":"xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x64.tar.gz",
+              "checksum":"SHA-256:9045d261b000d921887fc801427542eed2df1616f63a2969a2640f8be2593686",
+              "size":"151422620"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v9.3.1-1.3/xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x32.tar.gz",
+              "archiveFileName":"xpack-arm-none-eabi-gcc-9.3.1-1.3-linux-x32.tar.gz",
+              "checksum":"SHA-256:1950c7b0b4e35bacec32450158ec192ac469189a5fb27c2fd7c01e9603e50e64",
+              "size":"154309058"
+            }
+          ]
+        },
+        {
+          "name":"CMSIS",
+          "version":"5.7.0",
+          "systems":[
+            {
+              "host":"i686-mingw32",
+              "url":"https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName":"CMSIS-5.7.0.tar.bz2",
+              "checksum":"SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size":"26151901"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName":"CMSIS-5.7.0.tar.bz2",
+              "checksum":"SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size":"26151901"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName":"CMSIS-5.7.0.tar.bz2",
+              "checksum":"SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size":"26151901"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName":"CMSIS-5.7.0.tar.bz2",
+              "checksum":"SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size":"26151901"
+            },
+            {
+              "host":"arm-linux-gnueabihf",
+              "url":"https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName":"CMSIS-5.7.0.tar.bz2",
+              "checksum":"SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size":"26151901"
+            },
+            {
+              "host":"all",
+              "url":"https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName":"CMSIS-5.7.0.tar.bz2",
+              "checksum":"SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size":"26151901"
+            }
+          ]
+        },
+        {
+          "name":"openocd",
+          "version":"0.11.0-arduino2",
+          "systems":[
+            {
+              "size":"1902818",
+              "checksum":"SHA-256:a1aa7f1435a61eafb72ee90722f2496d6a34a7a0f085d0315c2613e4a548b824",
+              "host":"aarch64-linux-gnu",
+              "archiveFileName":"openocd-0.11.0-arduino2-static-aarch64-linux-gnu.tar.bz2",
+              "url":"http://downloads.arduino.cc/tools/openocd-0.11.0-arduino2-static-aarch64-linux-gnu.tar.bz2"
+            },
+            {
+              "size":"1986716",
+              "checksum":"SHA-256:57041130160be086e69387cceb4616eefc9819a0ef75de1f7c11aea57fb92699",
+              "host":"arm-linux-gnueabihf",
+              "archiveFileName":"openocd-0.11.0-arduino2-static-arm-linux-gnueabihf.tar.bz2",
+              "url":"http://downloads.arduino.cc/tools/openocd-0.11.0-arduino2-static-arm-linux-gnueabihf.tar.bz2"
+            },
+            {
+              "size":"1971364",
+              "checksum":"SHA-256:6f4a8b77c8076aa18afb8438472526dff8c0d161a3ca68d0326163b59fcab663",
+              "host":"i686-linux-gnu",
+              "archiveFileName":"openocd-0.11.0-arduino2-static-i686-ubuntu12.04-linux-gnu.tar.bz2",
+              "url":"http://downloads.arduino.cc/tools/openocd-0.11.0-arduino2-static-i686-ubuntu12.04-linux-gnu.tar.bz2"
+            },
+            {
+              "size":"2460087",
+              "checksum":"SHA-256:631010980f12b1e750c4c67ce012b31c5953caabf4d30607d806e3d2b717d4b8",
+              "host":"i686-mingw32",
+              "archiveFileName":"openocd-0.11.0-arduino2-static-i686-w64-mingw32.zip",
+              "url":"http://downloads.arduino.cc/tools/openocd-0.11.0-arduino2-static-i686-w64-mingw32.zip"
+            },
+            {
+              "size":"1893150",
+              "checksum":"SHA-256:280e7234eba84e830e92d791ebc685286f71d2bc1d3347f93605ef170d54fef4",
+              "host":"i386-apple-darwin11",
+              "archiveFileName":"openocd-0.11.0-arduino2-static-x86_64-apple-darwin13.tar.bz2",
+              "url":"http://downloads.arduino.cc/tools/openocd-0.11.0-arduino2-static-x86_64-apple-darwin13.tar.bz2"
+            },
+            {
+              "size":"2052080",
+              "checksum":"SHA-256:4d19b6e3906de1434ec86841e0e3138235714c655d45f037c0fabfa5e5c0681b",
+              "host":"x86_64-linux-gnu",
+              "archiveFileName":"openocd-0.11.0-arduino2-static-x86_64-ubuntu12.04-linux-gnu.tar.bz2",
+              "url":"http://downloads.arduino.cc/tools/openocd-0.11.0-arduino2-static-x86_64-ubuntu12.04-linux-gnu.tar.bz2"
+            }
+          ]
+        },
+        {
           "name":"bossac",
           "version":"1.9.1-arduino2",
           "systems":[
@@ -482,50 +1003,50 @@
           ]
         },
         {
-          "name":"dfu-util",
-          "version":"0.10.0-arduino1",
+          "name":"arm-none-eabi-gcc",
+          "version":"9-2019q4",
           "systems":[
             {
-              "host":"i386-apple-darwin11",
-              "url":"http://downloads.arduino.cc/tools/dfu-util-0.10.0-arduino1-osx.tar.bz2",
-              "archiveFileName":"dfu-util-0.10.0-arduino1-osx.tar.bz2",
-              "size":"73921",
-              "checksum":"SHA-256:7562d128036759605828d64b8d672d42445a8d95555c4b9ba339f73a1711a640"
-            },
-            {
               "host":"arm-linux-gnueabihf",
-              "url":"http://downloads.arduino.cc/tools/dfu-util-0.10.0-arduino1-arm.tar.bz2",
-              "archiveFileName":"dfu-util-0.10.0-arduino1-arm.tar.bz2",
-              "size":"272153",
-              "checksum":"SHA-256:f1e550f40c235356b7fde1c59447bfbab28f768915d3c14bd858fe0576bfc5a9"
+              "url":"http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+              "archiveFileName":"gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+              "checksum":"SHA-256:34180943d95f759c66444a40b032f7dd9159a562670fc334f049567de140c51b",
+              "size":"96613739"
             },
             {
               "host":"aarch64-linux-gnu",
-              "url":"http://downloads.arduino.cc/tools/dfu-util-0.10.0-arduino1-arm64.tar.bz2",
-              "archiveFileName":"dfu-util-0.10.0-arduino1-arm64.tar.bz2",
-              "size":"277886",
-              "checksum":"SHA-256:ebfbd21d3030c500da1f83b9aae5b8c597bee04c3bde1ce0a51b41abeafc9614"
-            },
-            {
-              "host":"x86_64-linux-gnu",
-              "url":"http://downloads.arduino.cc/tools/dfu-util-0.10.0-arduino1-linux64.tar.bz2",
-              "archiveFileName":"dfu-util-0.10.0-arduino1-linux64.tar.bz2",
-              "size":"77184",
-              "checksum":"SHA-256:13ef2ec591c1e8b0b7eb0a05da972ecd6695016e7a9607e332c7553899af9b4a"
-            },
-            {
-              "host":"i686-linux-gnu",
-              "url":"http://downloads.arduino.cc/tools/dfu-util-0.10.0-arduino1-linux32.tar.bz2",
-              "archiveFileName":"dfu-util-0.10.0-arduino1-linux32.tar.bz2",
-              "size":"81826",
-              "checksum":"SHA-256:43599ec60c000e9ef016970a496d6ab2cbbe5a8b7df9d06ef3114ecf83f9d123"
+              "url":"https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+              "archiveFileName":"gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+              "checksum":"MD5:0dfa059aae18fcf7d842e30c525076a4",
+              "size":"128670769"
             },
             {
               "host":"i686-mingw32",
-              "url":"http://downloads.arduino.cc/tools/dfu-util-0.10.0-arduino1-windows.tar.bz2",
-              "archiveFileName":"dfu-util-0.10.0-arduino1-windows.tar.bz2",
-              "size":"464314",
-              "checksum":"SHA-256:90816b669273ae796d734a2459c46bb340d4790783fd7aa01eb40c0443f1a9b1"
+              "url":"https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+              "archiveFileName":"gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+              "checksum":"MD5:9d60cbb0e358ab6a9d3c9e5dc3624dd2",
+              "size":"153520070"
+            },
+            {
+              "host":"x86_64-apple-darwin",
+              "url":"https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+              "archiveFileName":"gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+              "checksum":"MD5:241b64f0578db2cf146034fc5bcee3d4",
+              "size":"116770520"
+            },
+            {
+              "host":"x86_64-pc-linux-gnu",
+              "url":"https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+              "archiveFileName":"gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+              "checksum":"MD5:fe0029de4f4ec43cf7008944e34ff8cc",
+              "size":"116802378"
+            },
+            {
+              "host":"i686-pc-linux-gnu",
+              "url":"http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+              "archiveFileName":"gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+              "checksum":"SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
+              "size":"97427309"
             }
           ]
         }
