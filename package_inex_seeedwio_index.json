@@ -72,14 +72,14 @@
               "version":"0.10.0-arduino7"
             },
             {
-              "packager":"Seeeduino",
+              "packager":"adafruit",
               "name":"CMSIS",
               "version":"5.7.0"
             },
             {
-              "packager":"Seeeduino",
+              "packager":"adafruit",
               "name":"CMSIS-Atmel",
-              "version":"1.2.1"
+              "version":"1.2.2"
             },
             {
               "packager":"arduino",
