@@ -1,7 +1,7 @@
 {
   "packages":[
     {
-      "name":"INEX Seeed WIO",
+      "name":"INEXSeeedWIO",
       "maintainer":"INEX Seeed Studio boards",
       "websiteURL":"http://www.inex.co.th",
       "email":"dev@inex.co.th",
