@@ -19,7 +19,7 @@
           },
           "url":"https://www.inex.co.th/store/arduino_seeed_addon/samd-1.8.2.tar.bz2",
           "archiveFileName":"samd-1.8.2.tar.bz2",
-          "checksum":"SHA-256:d7edfa1041e9c1b14a3e590d7c24d64992d86f23ba924fa016a052e807c396c7",
+          "checksum":"SHA-256:4ecd0ad8f297a715ca86ca7f266c201ba79c882de5ab93ce47cbccfbd6bfb7dc",
           "size":"46935632",
           "boards":[
             {
