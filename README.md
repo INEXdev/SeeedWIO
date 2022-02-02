@@ -1,7 +1,7 @@
 # INEX SeeedStudio boards - WIO terminal  (Release candidate)
 
 Last update :
-26 Jan 2022 : Initialize in developement
+26 Jan 2022 : Initialize in developement  
 2 Feb 2022 : Release candidate
 
 # Board support
