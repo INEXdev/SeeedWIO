@@ -17,10 +17,10 @@
           "help":{
             "online":"http://www.inex.co.th"
           },
-          "url":"https://www.inex.co.th/store/arduino_seeed_addon/samd-1.8.2.tar.bz2",
-          "archiveFileName":"samd-1.8.2.tar.bz2",
-          "checksum":"SHA-256:4ecd0ad8f297a715ca86ca7f266c201ba79c882de5ab93ce47cbccfbd6bfb7dc",
-          "size":"46935632",
+          "url":"https://www.inex.co.th/store/arduino_seeed_addon/INEX-samd-1.8.2.tar.bz2",
+          "archiveFileName":"INEX-samd-1.8.2.tar.bz2",
+          "checksum":"SHA-256:d67af82644f0f234a66f5ad42b6c30c77c8ceb412b0e6543d9bd97fd46ee0f72",
+          "size":"49048253",
           "boards":[
             {
               "name":"Seeeduino Wio Terminal"
