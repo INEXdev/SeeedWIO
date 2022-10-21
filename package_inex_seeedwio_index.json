@@ -2,7 +2,7 @@
   "packages":[
     {
       "name":"INEXSeeedWIO",
-      "maintainer":"INEX Seeed Studio boards",
+      "maintainer":"INEX Seeed Studio",
       "websiteURL":"http://www.inex.co.th",
       "email":"dev@inex.co.th",
       "help":{
