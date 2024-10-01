@@ -2,7 +2,7 @@
 
 Last update : 
 
-1 Oct 2024 : Temporary workaround, change packed file to alternate host (Issue : Host response Forbidden 403).
+1 Oct 2024 : Fix issue : Host response Forbidden 403, all OK.
 
 26 Jan 2022 : Initialize in developement  
 
