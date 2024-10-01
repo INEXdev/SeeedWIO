@@ -17,7 +17,7 @@
           "help":{
             "online":"http://www.inex.co.th"
           },
-          "url":"https://www.pwatt.com/store/arduino_seeed_addon/INEX-samd-1.8.2.tar.bz2",
+          "url":"http://www.pwatt.com/store/arduino_seeed_addon/INEX-samd-1.8.2.tar.bz2",
           "archiveFileName":"INEX-samd-1.8.2.tar.bz2",
           "checksum":"SHA-256:d67af82644f0f234a66f5ad42b6c30c77c8ceb412b0e6543d9bd97fd46ee0f72",
           "size":"49048253",
